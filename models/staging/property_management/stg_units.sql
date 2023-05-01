@@ -18,7 +18,7 @@ staged as (
         city as city,
         state as state,
         zip_code as zip_code,
-        uploaded_at as uploaded_at
+        uploaded_at as unit_uploaded_at
     from source
 )
 

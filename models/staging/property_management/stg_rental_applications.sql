@@ -7,9 +7,9 @@ staged as (
         id as rental_application_id,
         created_at as ra_created_at,
         deleted_at as ra_deleted_at,
-        status as status,
+        status as application_status,
         contact_info_id as contact_info_id,
-        uploaded_at as property_uploaded_at
+        uploaded_at as ra_uploaded_at
     from source
 )
 

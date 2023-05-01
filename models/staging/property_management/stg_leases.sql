@@ -11,7 +11,7 @@ staged as (
         end_date as lease_end_date,
         rental_application_id as rental_application_id,
         completed as lease_completed,
-        uploaded_at as property_uploaded_at
+        uploaded_at as lease_uploaded_at
     from source
 )
 
